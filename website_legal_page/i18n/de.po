@@ -76,7 +76,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_legal_page.legal_page
 #: model_terms:website.page,arch_db:website_legal_page.legal_page_page
 #, fuzzy
-#| msgid "Cookies"
 msgid "Cookies Policy"
 msgstr "Cookies"
 
@@ -118,9 +117,7 @@ msgstr ""
 
 #. module: website_legal_page
 #: model_terms:ir.ui.view,arch_db:website_legal_page.acceptance_full
-msgid ""
-"I accept the legal terms, the privacy policy &amp; conditions of this "
-"website."
+msgid "I accept"
 msgstr ""
 
 #. module: website_legal_page
@@ -163,7 +160,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_legal_page.legal_page
 #: model_terms:website.page,arch_db:website_legal_page.legal_page_page
 #, fuzzy
-#| msgid "Termination"
 msgid "Indemnification"
 msgstr "Beendigung"
 
@@ -182,7 +178,6 @@ msgstr ""
 #. module: website_legal_page
 #: model_terms:ir.ui.view,arch_db:website_legal_page.legal_page_link
 #, fuzzy
-#| msgid "Legal Advice"
 msgid "Legal Page"
 msgstr "Rechtliche Hinweise (Impressum)"
 
@@ -223,7 +218,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_legal_page.legal_page
 #: model_terms:website.page,arch_db:website_legal_page.legal_page_page
 #, fuzzy
-#| msgid "Termination"
 msgid "Restrictions"
 msgstr "Beendigung"
 
@@ -372,6 +366,11 @@ msgid "make our websites operational"
 msgstr ""
 
 #. module: website_legal_page
+#: model_terms:ir.ui.view,arch_db:website_legal_page.acceptance_full
+msgid "of this website."
+msgstr "dieser Website."
+
+#. module: website_legal_page
 #: model_terms:ir.ui.view,arch_db:website_legal_page.legal_page
 #: model_terms:website.page,arch_db:website_legal_page.legal_page_page
 msgid "publicly performing and/or showing any Website material;"
@@ -394,6 +393,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_legal_page.legal_page
 #: model_terms:website.page,arch_db:website_legal_page.legal_page_page
 msgid "store visitor preferences"
+msgstr ""
+
+#. module: website_legal_page
+#: model_terms:ir.ui.view,arch_db:website_legal_page.acceptance_full
+msgid "the legal terms, the privacy policy &amp; conditions"
 msgstr ""
 
 #. module: website_legal_page
@@ -862,9 +866,6 @@ msgstr ""
 
 #~ msgid "legal advice"
 #~ msgstr "Rechtliche Hinweise (Impressum)"
-
-#~ msgid "of this website."
-#~ msgstr "dieser Website."
 
 #~ msgid "privacy policy"
 #~ msgstr "Datenschutzbestimmungen"
